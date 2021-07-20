@@ -18,6 +18,10 @@ menu:
       url: /about/
     - name: Team
       url: /team/
+    - name: Public Data
+      url: http://ziemann-lab.net:80/public
+    - name: Rstudio
+      url: http://ziemann-lab.net:8787/
 params:
   MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
   MathJaxVersion: 2.7.5
