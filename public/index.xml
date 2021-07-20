@@ -6,44 +6,43 @@
     <description>Recent content on Ziemann lab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Dec 2020 21:13:14 -0500</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 29 Jun 2020 13:09:13 -0600</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hello R Markdown</title>
-      <link>/2020/12/01/hello-r-markdown/</link>
-      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
+      <title>Multi-contrast enrichment with mitch</title>
+      <link>/2020/06/29/multi-contrast-enrichment-with-mitch/</link>
+      <pubDate>Mon, 29 Jun 2020 13:09:13 -0600</pubDate>
       
-      <guid>/2020/12/01/hello-r-markdown/</guid>
-      <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-You can embed an R code chunk like this:
-summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.</description>
+      <guid>/2020/06/29/multi-contrast-enrichment-with-mitch/</guid>
+      <description>Pathway enrichment analysis is among the most frequently used types of computational biology analysis, enabling us to better interpret and summarise massive gene regulation datasets into a manageable list of pathways.
+While this is truly powerful, most pathway analysis tools are limited to a single comparison, which is a problem if the dataset consists of multiple sample groups, for example if we are working with an multiple disease and treatment groups, as tends to be the case for most omics experiments undertaken these days.</description>
     </item>
     
     <item>
-      <title>A Plain Markdown Post</title>
-      <link>/2016/12/30/a-plain-markdown-post/</link>
-      <pubDate>Fri, 30 Dec 2016 21:49:57 -0700</pubDate>
+      <title>Digital Expression Explorer</title>
+      <link>/2019/04/01/digital-expression-explorer/</link>
+      <pubDate>Mon, 01 Apr 2019 13:09:13 -0600</pubDate>
       
-      <guid>/2016/12/30/a-plain-markdown-post/</guid>
-      <description>This is a post written in plain Markdown (*.md) instead of R Markdown (*.Rmd). The major differences are:
- You cannot run any R code in a plain Markdown document, whereas in an R Markdown document, you can embed R code chunks (```{r}); A plain Markdown post is rendered through Blackfriday, and an R Markdown document is compiled by rmarkdown and Pandoc.  There are many differences in syntax between Blackfriday&amp;rsquo;s Markdown and Pandoc&amp;rsquo;s Markdown.</description>
+      <guid>/2019/04/01/digital-expression-explorer/</guid>
+      <description>The Digital Expression Explorer (DEE) project is one of the flagship projects for the Ziemann Computational Biology lab. Since 2015, the project has strived to deliver processed RNA-seq data into the public domain. If you have ever had to process this type of gene expression data you will know that it requires a great deal of computational power and expertise at using command-line tools. This means that most researchers, students and hobbyists are excluded from undertaking this sort of analysis.</description>
     </item>
     
     <item>
-      <title>About</title>
+      <title>Team Members</title>
+      <link>/team/</link>
+      <pubDate>Thu, 05 May 2016 21:48:51 -0700</pubDate>
+      
+      <guid>/team/</guid>
+      <description>Site under construction Jane Bloggs Jane earned her Bachelor degree in astrophysics in 2019 from the University of Queensland. She joined the group in Febrary 2021 to complete a Masters project investigating pathway level understanding of single cell transcriptomics data. She will be completing her project in November 2021 and will be looking for opportunities to start a PhD project or work as a bioinformatics research assistant in Australia or abroad.</description>
+    </item>
+    
+    <item>
+      <title>Ziemann Computational Biology Group</title>
       <link>/about/</link>
       <pubDate>Thu, 05 May 2016 21:48:51 -0700</pubDate>
       
       <guid>/about/</guid>
-      <description>This is a &amp;ldquo;hello world&amp;rdquo; example website for the blogdown package. The theme was forked from @jrutheiser/hugo-lithium-theme and modified by Yihui Xie.</description>
-    </item>
-    
-    <item>
-      <title>Lorem Ipsum</title>
-      <link>/2015/01/01/lorem-ipsum/</link>
-      <pubDate>Thu, 01 Jan 2015 13:09:13 -0600</pubDate>
-      
-      <guid>/2015/01/01/lorem-ipsum/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+      <description>The group is based at Deakin University Geelong, Australia with members across the Geelong and Melbourne. Our group is focused on building data resources and software tools to accelerate biomedical discovery. We collaborate closely with clinicians and biologists to get the most out of their &amp;lsquo;omics experiments. Our lab is committed to reproducibility, open science, and diversity.
+Dr Mark Ziemann&amp;rsquo;s Biosketch Mark earned his PhD at Swinburne University (2010) in the field of plant molecular genetics under the supervision of Prof Mrinal Bhave and Prof Sabine Zachgo.</description>
     </item>
     
   </channel>

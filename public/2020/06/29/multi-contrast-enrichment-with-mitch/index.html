@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.5">
+<meta name="generator" content="Hugo 0.85.0" />
+
+
+<title>Multi-contrast enrichment with mitch - Ziemann lab</title>
+<meta property="og:title" content="Multi-contrast enrichment with mitch - Ziemann lab">
+
+
+  <link href='/favicon.ico' rel='icon' type='image/x-icon'/>
+
+
+
+  
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/logo.png"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">About</a></li>
+    
+    <li><a href="http://ziemann-lab.net:80/public">Public Data</a></li>
+    
+    <li><a href="http://ziemann-lab.net:8787/">Rstudio</a></li>
+    
+    <li><a href="/team/">Team</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">2 min read</span>
+    
+
+    <h1 class="article-title">Multi-contrast enrichment with mitch</h1>
+
+    
+    <span class="article-date">2020-06-29</span>
+    
+
+    <div class="article-content">
+      <img src="https://github.com/markziemann/mitch_paper/raw/master/figs/mitch.png" alt="drawing" style="width:200px;"/>
+<p>Pathway enrichment analysis is among the most frequently used types of computational biology analysis, enabling us to better interpret and summarise massive gene regulation datasets into a manageable list of pathways.</p>
+<p>While this is truly powerful, most pathway analysis tools are limited to a single comparison, which is a problem if the dataset consists of multiple sample groups, for example if we are working with an multiple disease and treatment groups, as tends to be the case for most omics experiments undertaken these days.</p>
+<p>Standard single contrast techniques like DAVID or GSEA can be used multiple times, but this decreases the ability to identify subtle patterns of regulation over multiple contrasts.</p>
+<p><a href="https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-13-S16-S12">Cox and Mann (2012)</a> proposed the use of the MANOVA test for enrichment analysis of multiple contrasts, but there were a few drawbacks; (i) the software was not interoperable with the R/bioconductor workflows used in genomics, and (ii) the analysis was limited to only one or two dimensions.</p>
+<p>To address this Dr Antony Kaspi (now based at WEHI) drafted R codes that would enable MANOVA-powered gene set enrichment analysis. Dr Kaspi and the team of Prof Sam El-Osta used the functions extensively in the period 2014-2018 for a variety of omics analysis projects in diabetes, epilepsy and heart development.</p>
+<p>As the software was central for the success of a number of projects, Drs Kaspi and Ziemann decided to formalise the code into a Bioconductor package.</p>
+<p>The package was accepted into Bioconductor in December 2019, and the journal article appeared in <em>BMC genomics</em> in the following June <a href="https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-020-06856-9">(Kaspi &amp; Ziemann 2020)</a>.</p>
+<p>In terms of downloads, the mitch package ranks in the top 900 Bioconductor packages and is still under active development.
+Our group uses mitch heavily in our collaborative work, and we routinely help other groups develop their mitch-based enrichment analysis workflows.</p>
+<h3 id="references">References</h3>
+<p>Cox, J. and Mann, M. (2012) “1D and 2D annotation enrichment: a statistical method integrating quantitative proteomics with complementary high-throughput data,” BMC bioinformatics, 13 Suppl 16(S16), p. S12.</p>
+<p>Kaspi, A. and Ziemann, M. (2020) “Mitch: Multi-contrast pathway enrichment for multi-omics and single-cell profiling data,” BMC genomics, 21(1), p. 447.</p>
+<h3 id="some-of-the-projects-that-have-used-mitch">Some of the projects that have used mitch</h3>
+<p>Sim, C. B. et al. (2021) “Sex-specific control of human heart maturation by the progesterone receptor,” Circulation, 143(16), pp. 1614–1628.</p>
+<p>Tan, S. M. et al. (2021) “Targeting methylglyoxal in diabetic kidney disease using the mitochondria-targeted compound MitoGamide,” Nutrients, 13(5). doi: 10.3390/nu13051457.</p>
+<p>Watt, K. I. et al. (2021) “Yap regulates skeletal muscle fatty acid oxidation and adiposity in metabolic disease,” Nature communications, 12(1), p. 2887.</p>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" alt="Img link to Hugo website" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+    
+
+    
+  </body>
+</html>
+
