@@ -16,12 +16,16 @@ menu:
   main:
     - name: About
       url: /about/
+      weight: 1
     - name: Team
       url: /team/
+      weight: 2
     - name: Public Data
       url: http://ziemann-lab.net:80/public
+      weight: 3
     - name: Rstudio
       url: http://ziemann-lab.net:8787/
+      weight: 4
 params:
   MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
   MathJaxVersion: 2.7.5

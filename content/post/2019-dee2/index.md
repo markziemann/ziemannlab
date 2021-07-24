@@ -15,9 +15,11 @@ DEE version 2.0 was described in a *GigaScience* publication [(Ziemann et al 201
 
 As of July 2021, DEE2 contains 1.5M RNA-seq datasets from ~1M samples, making it the largest such dataset in the public domain.
 DEE2 is therefore an important piece of genomics infrastructure, improving reuse of public RNA-seq data, feeding innovation into gene expression networks and machine learning.
-We continue to add new datasets to DEE2 thanks to the support of Deakin University, NCI/MASSIVE and Nectar Research Cloud for resources.
+We continue to add new datasets to DEE2 thanks to the support of Deakin University, NCI/MASSIVE and Nectar Research Cloud for compute resources.
 
 ![DEE2 Current Size](http://dee2.io/images/dee_datasets.png "DEE2 Current Size")
+
+Visit http://dee2.io to access the dataset.
 
 ### Further reading
 

@@ -6,7 +6,18 @@
     <description>Recent content in Posts on Ziemann lab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 29 Jun 2020 13:09:13 -0600</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 19 Jul 2021 21:13:14 -0500</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gene name errors: Redux</title>
+      <link>/2021/07/19/gene-name-errors-redux/</link>
+      <pubDate>Mon, 19 Jul 2021 21:13:14 -0500</pubDate>
+      
+      <guid>/2021/07/19/gene-name-errors-redux/</guid>
+      <description>TODO This is just a test
+par(mar = c(0, 1, 0, 1)) pie( c(280, 60, 20), c(&amp;#39;Sky&amp;#39;, &amp;#39;Sunny side of pyramid&amp;#39;, &amp;#39;Shady side of pyramid&amp;#39;), col = c(&amp;#39;#0292D8&amp;#39;, &amp;#39;#F7EA39&amp;#39;, &amp;#39;#C4B632&amp;#39;), init.angle = -50, border = NA )  Figure 1: A fancy pie chart.  Orange
+summary(Orange) ## Tree age circumference ## 3:7 Min. : 118.0 Min. : 30.0 ## 1:7 1st Qu.: 484.0 1st Qu.: 65.5 ## 5:7 Median :1004.</description>
+    </item>
+    
     <item>
       <title>Multi-contrast enrichment with mitch</title>
       <link>/2020/06/29/multi-contrast-enrichment-with-mitch/</link>

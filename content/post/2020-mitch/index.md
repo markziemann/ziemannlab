@@ -23,6 +23,8 @@ The package was accepted into Bioconductor in December 2019, and the journal art
 In terms of downloads, the mitch package ranks in the top 900 Bioconductor packages and is still under active development.
 Our group uses mitch heavily in our collaborative work, and we routinely help other groups develop their mitch-based enrichment analysis workflows.
 
+To learn more about the package, visit the bioconductor site [here](https://www.bioconductor.org/packages/release/bioc/html/mitch.html).
+
 ### References
 
 Cox, J. and Mann, M. (2012) “1D and 2D annotation enrichment: a statistical method integrating quantitative proteomics with complementary high-throughput data,” BMC bioinformatics, 13 Suppl 16(S16), p. S12.

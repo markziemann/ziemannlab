@@ -1,18 +1,14 @@
 ---
 title: "Gene name errors: Redux"
 author: "Mandy Abeysooriya & Mark Ziemann"
-date: 2021-07-20T21:13:14-05:00
+date: 2021-07-19T21:13:14-05:00
 categories: ["R"]
-tags: ["R Markdown", "plot", "regression"]
+tags: ["genomics", "spreadsheet", "gene names"]
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(collapse = TRUE)
-```
+# TODO
 
-# Testing R Markdown posts
-
-You can run analysis and embed plots. See Figure \@ref(fig:pie) for example:
+This is just a test
 
 ```{r pie, fig.cap='A fancy pie chart.', tidy=FALSE}
 par(mar = c(0, 1, 0, 1))
