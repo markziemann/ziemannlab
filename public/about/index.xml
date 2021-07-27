@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on Ziemann lab</title>
+    <link>/about/</link>
+    <description>Recent content in Abouts on Ziemann lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 05 May 2016 21:48:51 -0700</lastBuildDate><atom:link href="/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ziemann Computational Biology Group</title>
+      <link>/about/about/</link>
+      <pubDate>Thu, 05 May 2016 21:48:51 -0700</pubDate>
+      
+      <guid>/about/about/</guid>
+      <description>The group is based at Deakin University Geelong, Australia with members across the Geelong and Melbourne. Our group is focused on building data resources and software tools to accelerate biomedical discovery. We collaborate closely with clinicians and biologists to get the most out of their &amp;lsquo;omics experiments. Our lab is committed to reproducibility, open science, and diversity.
+Dr Mark Ziemann&amp;rsquo;s Biosketch Mark earned his PhD at Swinburne University (2010) in the field of plant molecular genetics under the supervision of Prof Mrinal Bhave and Prof Sabine Zachgo.</description>
+    </item>
+    
+  </channel>
+</rss>

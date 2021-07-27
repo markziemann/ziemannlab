@@ -1,6 +1,6 @@
 ---
-date: "2016-05-05T21:48:51-07:00"
-title: Ziemann Computational Biology Group
+title: "Ziemann Computational Biology Group"
+date: '2016-05-05T21:48:51-07:00'
 ---
 
 The group is based at Deakin University Geelong, Australia with members across the Geelong and Melbourne.
