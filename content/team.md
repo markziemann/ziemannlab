@@ -5,6 +5,45 @@ date: '2021-07-25T21:48:51-07:00'
 
 # **Site under construction**
 
+## Megan Soria
+
+<img src="megan.jpg" alt="Megan Soria" width="50%" />
+
+Megan earned her Bachelors degree in Chemical Engineering in 2015 from the Cebu Institute of Technology - University.
+After working as an engineer in the Philippines, she enrolled in a masters program and joined the group in July 2020 to complete a Masters project.
+She is investigating the functions of long non-coding RNAs (lncRNAs) through machine learning and data analytics and will be completing her project in November 2021.
+Megan loves reading, hiking, and bouncing off ideas with friends over a cup of coffee.
+She is a Study Geelong Ambassador and is part of the Study Melbourne Leadership Labs 4Impact in support of the United Nations Sustainable Development Goals for 2021.
+Megan believes good science necessitates good communication.
+So, on top of striving to be a good researcher, she constantly strives to improve her communication skills by writing about her journey as a bioinformatician in her blog.
+
+### Links and Contact Info
+
+✍[Blog](https://megsoria.space/)
+
+🐥[Twitter](https://twitter.com/SoriaMegan)
+
+👔[LinkedIn](https://www.linkedin.com/in/megan-soria-b8a97857/)
+
+🔬[ORCID](https://orcid.org/0000-0002-8715-6854)
+
+📩 <msoria@deakin.edu.au> | <megan.m.soria@gmail.com>
+
+## Kaumadi Wijesooriya
+
+<img src="kaumadi.jpg" alt="Kaumadi Wijesooriya" width="50%" />
+
+Kaumadi earned her Bachelor of Science in Medical laboratory science in 2016 at University of Peradeniya, Sri Lanka.
+Under the bachelor's degree, she completed work-based learning in Hematology, Clinical Biochemistry, Histology, Medical Microbiology, and Immunology.
+Her undergraduate research study was about anti-obesity effect of indigenous medicines.
+After 3 years of work as a medical laboratory scientist in health sector, she started her Master's in Biotechnology and Bioinformatics in Deakin University, Australia in 2019.
+Currently, she is on her final year research project which is a survey of reporting standards in enrichment analysis.
+She will complete her master's at the end of 2021 and looking forward to undertaking PhD in 2022. 
+
+### Contact
+
+email: mwijesooriya[αt]deakin.edu.au
+
 ## Mandhri Dushyanthi Abeysooriya
 
 <img src="mandhri.jpg" alt=" Mandhri Dushyanthi Abeysooriya" width="50%" />
@@ -17,7 +56,7 @@ After her Bachelor’s she worked as a quality assurance intern in a leading pha
 She was recently selected to do her PhD at Deakin University after completing her Master's degree in July 2021 where she will be pursing her further studies in related to epigenetic mechanisms of sex differences in aging. 
 As for leisure time activities, Mandhri likes to play chess and League of Legends (online game). She also enjoys cloud watching and listening to instrumental music. 
 
-### Links
+### Links and contact
 
 * [My CV](http://ziemann-lab.net/public/mandy/CV_Mandhri_Abeysooriya.pdf)
 
@@ -28,6 +67,8 @@ As for leisure time activities, Mandhri likes to play chess and League of Legend
 * [ORCID](https://orcid.org/0000-0003-2163-6203)
 
 * [GitHub](https://github.com/mandhri)
+
+* Email: mandhri.abeysooriya[αt]gmail.com 
 
 <hr>
 
@@ -68,5 +109,7 @@ Aaron will be completing his Honours in November of 2021 and is interested in un
 ### Contact
 
 email: akovacs[αt]deakin.edu.au
+
+[LinkedIn](https://www.linkedin.com/mwlite/in/aaron-kovacs-717a61174)
 
 <hr>
