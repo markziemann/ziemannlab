@@ -40,6 +40,12 @@ After 3 years of work as a medical laboratory scientist in health sector, she st
 Currently, she is on her final year research project which is a survey of reporting standards in enrichment analysis.
 She will complete her master's at the end of 2021 and looking forward to undertaking PhD in 2022. 
 
+⛩️[ResearchGate](https://www.researchgate.net/profile/Kaumadi-Wijesooriya)
+
+🔬[ORCID](https://orcid.org/my-orcid?orcid=0000-0002-1777-4964)
+
+👔[LinkedIn](https://www.linkedin.com/in/kaumadi-wijesooriya-0bb315173/)
+
 ### Contact
 
 email: mwijesooriya[αt]deakin.edu.au
