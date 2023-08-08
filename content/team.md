@@ -97,6 +97,8 @@ Because of this in the future, he plans to undertake a PhD and focus on research
 
 📩 ichim.iulian12 [αt] gmail.com
 
+<hr>
+
 ## Kingsley Isaac Ogamanya
 
 <img src="kingsley.jpeg" alt="Kingsley Isaac Ogamanya" width="50%" />
@@ -113,11 +115,11 @@ Ujowundu CO, Ogamanya KI, Ujowundu FN, Adejoh VO, Iheme CI, Igwe KO. Biochemical
 
 ### Contact
 
-Twitter: [@isaackingsley85](https://twitter.com/isaackingsley85)
+🐦 [@isaackingsley85](https://twitter.com/isaackingsley85)
 
-Linkedin: www.linkedin.com/in/kingsley-isaac-ogamanya-3b146a19b
+👔[Linkedin](www.linkedin.com/in/kingsley-isaac-ogamanya-3b146a19b)
 
-Email: isaackingsley85[αt]yahoo.com
+📩 isaackingsley85[αt]yahoo.com
 
 <hr>
 
@@ -133,8 +135,8 @@ Aaron will be completing his Honours in November of 2021 and is interested in un
 
 ### Contact
 
-email: akovacs[αt]deakin.edu.au
+📩 aaron.kovacs71[αt]outlook.com
 
-[LinkedIn](https://www.linkedin.com/mwlite/in/aaron-kovacs-717a61174)
+👔[LinkedIn](https://www.linkedin.com/mwlite/in/aaron-kovacs-717a61174)
 
 <hr>
