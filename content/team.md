@@ -78,6 +78,25 @@ As for leisure time activities, Mandhri likes to play chess and League of Legend
 
 <hr>
 
+## Iulian Ichim
+
+<img src="iulian.jpeg" alt="Iulian Ichim" width="50%" />
+
+Iulian earned his bachelor's degree in Medical Engineering in 2019 at the University of Medicine & Pharmacy, Iasi, Romania.
+After graduation and experimentation in different fields, he returned to my main field and enrolled in a Master's degree in
+Bioinformatics at University College Cork, Ireland in 2023.
+Iulian is currently undertaking a placement in the Ziemann lab to establish new features into the DEE2 project.
+He is passionate about computer science and the natural sciences.
+In my spare time, he does boxing, reads, goes on long walks and tries to enjoy nature as much as possible.
+Being a learner at heart, he is passionate about knowledge from multiple fields and having the opportunity to constantly learn new things.
+Because of this in the future, he plans to undertake a PhD and focus on research.
+
+👨‍💻 [GitHub](https://www.linkedin.com/in/iulianichim/)
+
+👔[LinkedIn](https://www.linkedin.com/in/iulianichim/)
+
+📩 ichim.iulian12 [αt] gmail.com
+
 ## Kingsley Isaac Ogamanya
 
 <img src="kingsley.jpeg" alt="Kingsley Isaac Ogamanya" width="50%" />
