@@ -3,7 +3,28 @@ title: "Team Members"
 date: '2021-07-25T21:48:51-07:00'
 ---
 
-# **Site under construction**
+## Jonathan Salazar
+
+<img src="jonathan.png" alt="Jonathan Salazar" width="50%" />
+
+Jonathan is a Bachelor of Biomedical Science Graduating in 2023, majoring in Molecular Life Sciences,
+at Deakin University.
+In February 2024, Jonathan joined the Ziemann lab group at the Burnet Institute to complete an Honours
+project focusing on critical evaluation of the reliability of single-cell RNA-sequencing enrichment
+analysis reliability.
+Jonathan is passionate about bioinformatics for its transformative potential in uncovering disease
+mechanisms, and he aims to contribute to progress in this field.
+After completing his Honours project in November 2024, Jonathan plans to seek research assistant roles
+in bioinformatics and biotechnology, while pursuing further studies through a Masters or PhD program.
+In his free time, Jonathan enjoys travelling, playing golf, and listening to science and tech podcasts.
+
+👔 [LinkedIn](https://www.linkedin.com/in/jonathan-salazar-11014525b/)
+
+👨💻 [GitHub](https://github.com/Jon6349)
+
+📩 <jonathan.salazar@student.burnet.edu.au> | <jonsalaz@outlook.com>
+
+
 
 ## Megan Soria
 
@@ -64,17 +85,17 @@ As for leisure time activities, Mandhri likes to play chess and League of Legend
 
 ### Links and contact
 
-* [My CV](http://ziemann-lab.net/public/mandy/CV_Mandhri_Abeysooriya.pdf)
+💼 [My CV](http://ziemann-lab.net/public/mandy/CV_Mandhri_Abeysooriya.pdf)
 
-* [LinkedIn](https://www.linkedin.com/in/mandhri-abeysooriya-3b622a62/)
-    
-* [Research Gate](https://www.researchgate.net/profile/Mandhri-Abeysooriya)
+👔 [LinkedIn](https://www.linkedin.com/in/mandhri-abeysooriya-3b622a62/)
+ 
+⛩️[ [Research Gate](https://www.researchgate.net/profile/Mandhri-Abeysooriya)
 
-* [ORCID](https://orcid.org/0000-0003-2163-6203)
+🔬 [ORCID](https://orcid.org/0000-0003-2163-6203)
 
-* [GitHub](https://github.com/mandhri)
+👨💻  [GitHub](https://github.com/mandhri)
 
-* Email: mandhri.abeysooriya[αt]gmail.com 
+📩 mandhri.abeysooriya[αt]gmail.com 
 
 <hr>
 
