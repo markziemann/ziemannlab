@@ -3,6 +3,33 @@ title: "Team Members"
 date: '2021-07-25T21:48:51-07:00'
 ---
 
+## Anusuiya Bora
+
+<img src="anusuiya.jpg" alt="Anusuiya Bora" width="70%" />
+
+Anusuiya Bora is a PhD candidate at Burnet Institute and Deakin University.
+She completed her Bachelor of Technology in Biotechnology from Vellore Institute of Technology, Vellore, India, in August 2022.
+During her Bachelor’s final year project, she collaborated with Dr. Mark Ziemann on the project titled “Testing the reproducibility and rigour of published functional enrichment studies.”
+This pilot study revealed significant issues affecting published studies using pathway enrichment analysis, with only 20% meeting acceptable reproducibility standards.
+This finding spiked her interest in expanding the project further. 
+Following her Bachelor’s degree, Anusuiya pursued a Master of Science in Precision Medicine at University College Dublin, Ireland, where she was honored with the 100% Global Excellence Scholarship.
+She graduated with her Master’s degree in August 2023 and subsequently joined the Ziemann group as a PhD student in October 2023.
+Her current PhD project is titled “On the reproducibility of functional enrichment analysis,” focusing on improving methodologies and potentially developing tools to enhance reproducibility standards in biomedical research. 
+Beyond her academic pursuits, Anusuiya enjoys visiting different beaches, going for drives, and refining her culinary skills through cooking.
+She is focusing on maintaining a healthy lifestyle and improving her fitness throughout this year.
+Throughout her PhD journey, she aims to strengthen her technical and communication skills while growing her network with fellow researchers.
+Anusuiya welcomes connections via email or LinkedIn to discuss her research or share insights from her PhD experience.
+
+🔬[ORCID](https://orcid.org/0009-0006-2908-1352)
+
+👩💻 [GitHub](https://github.com/anusuiyaxbora)
+
+👔 [LinkedIn](https://www.linkedin.com/in/anusuiya-bora/)
+
+🐥[Twitter](https://twitter.com/Bora_Anusuiya08)
+
+📩 <s222331482@deakin.edu.au> | <anusuiya.bora@hotmail.com>
+
 ## Jonathan Salazar
 
 <img src="jonathan.png" alt="Jonathan Salazar" width="50%" />
@@ -23,8 +50,6 @@ In his free time, Jonathan enjoys travelling, playing golf, and listening to sci
 👨💻 [GitHub](https://github.com/Jon6349)
 
 📩 <jonathan.salazar@student.burnet.edu.au> | <jonsalaz@outlook.com>
-
-
 
 ## Megan Soria
 
