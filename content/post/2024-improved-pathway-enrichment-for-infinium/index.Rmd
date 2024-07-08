@@ -1,0 +1,153 @@
+---
+title: "An improved method for pathway enrichment analysis of Infinium methylation data"
+author: "Mark Ziemann"
+date: 2024-07-08
+categories: ["Bioinformatics","Epigenetics"]
+tags: ["Deakin","Burnet"]
+---
+
+Having worked in an epigenetics lab for nine years, I have come to appreciate
+the strange complexity of DNA methylation's (DNAm) role in genomic regulation.
+On the one hand there's strong evidence for DNAm being important for gene
+regulatory events in cancer by inactivating tumour suppressor genes.
+On the other hand, the link between DNAm and other diseases is less well
+understood.
+Unfortunately, despite the large number of epigenome-wide association studies
+conducted there have not really been any major translations of this research
+into clinical practice.
+Some of the blame could be placed on researchers not really understanding the
+hypotheses they are testing or the limitations of what the epigenome can tell us
+(Birney et al, 2016).
+
+Another problem in the field is that the articles tend to have a singular focus
+to identify individual distinguishing CpG dinucleotides to some arbitrary
+significance value such as FDR<0.05.
+Yes, there are tools such as DMRcate and BumpHunter that seek genomic regions
+with distinct methylation patterns, but these are dependent upon cut-off
+thresholds and methods for downstream interpretation of these regions is not
+clear.
+The methods we have on hand disregard the information contributed by CpG
+positions that may have a trend in DNAm but do not meet the fairly strict
+FDR<0.05 cut-off.
+This means that for many EWAS, only a few CpG sites appear as significant, and
+therefore when conducting an enrichment analysis using over-representation tests,
+there are few or no significant findings.
+
+There have been various attempts to enhance pathway analysis of methylation array
+data, but the ones we have on hand such as methylGSA do not consider the direction
+of methylation change as important.
+For me this is crazy, as the information we have from cancer shows a clearly
+important role for the direction of the methylation change in silencing
+tumour suppressor genes.
+Moreover from a signal detection perspective, it is known that combining up and 
+down regulated genes into a single test strongly diminishes sensitivity
+(Hong et al, 2013).
+
+I started working on this problem in 2020 with a Masters student Mandhri
+Abeysooriya, seeking to understand the impact of elevated homocysteine on
+epigenomic regulation using a meta-analysis and pathway enrichment analysis.
+Although we weren't able to obtain the underlying data from several published
+studies (that is a topic for another post), we did begin the process of
+optimising functional class scoring methods (like GSEA) that take into
+consideration the direction of methylation changes.
+We understood that methylaton data was special in that each gene may have a
+variable number of probes measured, and aggregating these probe measurements to
+genes could be done in a variety of ways each with their biases.
+
+When I began working closely with Professor Jeff Craig's group at Deakin,
+I was able to apply some early prototype methods to some EWAS data they had on
+autism, which gave intriguing results which I hope to share with you soon.
+But due to the experimental nature of the analysis, we were sceptical that the
+results were reliable.
+So I went down the rabbit hole of seeking to formally validate the method we
+developed, work that has just been published in *Epigenetics*
+(Ziemann et al, 2024).
+In that work we evaluated several approaches for FCS with simulated data.
+The best approach we tested (called LAM) involved limma for differential
+methylation, averaging probe t-statistics by gene, followed by rank-ANOVA test.
+This process can be run using the mitch R package (Kaspi & Ziemann, 2020), and
+we provide an example workflow on the [bioconductor page](https://www.bioconductor.org/packages/devel/bioc/vignettes/mitch/inst/doc/infiniumMethArrayWorkflow.html).
+It performed better that existing over-representation methods like GSAmeth
+(Maksimovic et al 2021), which is understandable given that LAM uses data from
+more probes and doesn't use arbitrary cut-offs.
+
+As you will see in [our paper](https://www.tandfonline.com/doi/full/10.1080/15592294.2024.2375022),
+we tested LAM in different systems, beginning with lung cancer, showing that
+not only are more pathways identified with LAM as compared to GSAmeth, but these
+pathways could be reliably detected with a much smaller sample size, showing that
+truly LAM is a more sensitive technique.
+Moreover, the pathway level methylation changes were more relevant with the
+mRNA expression changes observed with RNA-seq, suggesting a role for methylation
+in widespread regulation of gene expression.
+What was surprising is that these associations were not only the expected
+anticorrelation between promoter methylation and expression.
+In fact most associations showed a positive correlation between methylation and
+gene expression.
+More work is required to understand these counter-intuitive results, but it is a
+significant step towards better understanding of pathway methylation in cancer.
+
+Next, we looked at aging, finding some interesting and novel associations between
+pathway methylation and aging, including reduction in complement cascade gene
+methylation and increases in pluripotency pathways with aging.
+These two findings are consistent with the idea of increasing chronic
+inflammation and reduced cellular plasticity with aging.
+
+The next test was designed to compare enrichment results across different array
+platforms.
+We looked at a study from 2016 that used to 450K array and a 2019 study that
+used the newer EPIC array to study methylation changes due to IVF based
+conception.
+The results showed a trend of genomic demethylation caused by IVF and a range of
+novel associations including increases to defensin genes, complement and clotting
+cascades, while mitochondrial function, tissue development and adrenoreceptor
+pathways had consistent reductions in methylation across studies.
+
+To highlight the utility of this tool for multi-contrast enrichment, we used LAM
+on EWAS data of 19 common disease states including prevalence and incidence
+(Hillary et al, 2023).
+We identified many pathways associated with these prevalent diseases; most of the
+pathways identified were consistent with disease pathology such as type-2 diabetes
+linked to lower methylation of the angiotensin converting process, and lower
+methylation of MET/PTK2 signing pathway in hear disease.
+
+But what really intrigued us with this unique study by Hillary et al was the
+possibility of analysing the incident profiles, that is, samples collected before
+a lengthy follow up period where significant numbers of individuals were diagnosed
+with these various conditions.
+The original study used GSAmeth to analyse the few incident CpG they
+found, with no significant incident pathways as a result.
+On the other hand, with LAM we identified over 1500 pathways across the 19
+disease states.
+
+![*Pathway methylation in incident disease. From Ziemann et al, 2024.* ](https://www.tandfonline.com/cms/asset/089c45b7-8dea-4ea8-a6ec-125caad0f307/kepi_a_2375022_f0009_oc.jpg)
+
+Most were identified in chronic and progressive conditions like heart disease,
+chronic obstructive pulmonary disease, type-2 diabetes and chronic kidney disease,
+where metabolic and physiological changes in early disease can be detected.
+However we also observed associations with other conditions
+including cancers of the prostate, ovary, lung and breast.
+With further work, the incident pathways identified could become the basis for
+a liquid biopsy early warning system for common disease.
+
+With this work, we hope to reinvigorate the methodologies used in EWAS so that
+researchers can extract the greatest amount of information possible from their
+valuable data sets.
+
+We have made the tool available as a Shiny web application [here](https://github.com/markziemann/gmea_app).
+Download and run the docker image according to the README and then in the
+browser you can upload the entire limma differential methylation table together
+with gene sets of your choice and it will run LAM for you!
+
+### Bibliography
+
+Birney E, Smith GD, Greally JM. Epigenome-wide Association Studies and the Interpretation of Disease -Omics. PLoS Genet. 2016 Jun 23;12(6):e1006105. doi: [10.1371/journal.pgen.1006105](https://doi.org/10.1371/journal.pgen.1006105). PMID: 27336614; PMCID: PMC4919098.
+
+Hillary RF, McCartney DL, Smith HM, Bernabeu E, Gadd DA, Chybowska AD, Cheng Y, Murphy L, Wrobel N, Campbell A, Walker RM, Hayward C, Evans KL, McIntosh AM, Marioni RE. Blood-based epigenome-wide analyses of 19 common disease states: A longitudinal, population-based linked cohort study of 18,413 Scottish individuals. PLoS Med. 2023 Jul 6;20(7):e1004247. doi: [10.1371/journal.pmed.1004247](https://doi.org/10.1371/journal.pmed.1004247). PMID: 37410739; PMCID: PMC10325072.
+
+Hong G, Zhang W, Li H, Shen X, Guo Z. Separate enrichment analysis of pathways for up- and downregulated genes. J R Soc Interface. 2013 Dec 18;11(92):20130950. doi: [10.1098/rsif.2013.0950](https://doi.org/10.1098/rsif.2013.0950). PMID: 24352673; PMCID: PMC3899863.
+
+Kaspi A, Ziemann M. mitch: multi-contrast pathway enrichment for multi-omics and single-cell profiling data. BMC Genomics. 2020 Jun 29;21(1):447. doi: [10.1186/s12864-020-06856-9](https://doi.org/10.1186/s12864-020-06856-9). PMID: 32600408; PMCID: PMC7325150.
+
+Maksimovic J, Oshlack A, Phipson B. Gene set enrichment analysis for genome-wide DNA methylation data. Genome Biol. 2021 Jun 8;22(1):173. doi: [10.1186/s13059-021-02388-x](https://doi.org/10.1186/s13059-021-02388-x). PMID: 34103055; PMCID: PMC8186068.
+
+Ziemann M, Abeysooriya M, Bora A, Lamon S, Kasu MS, Norris MW, Wong YT, Craig JM. Direction-aware functional class scoring enrichment analysis of infinium DNA methylation data. Epigenetics. 2024 Dec;19(1):2375022. doi: [10.1080/15592294.2024.2375022](https://doi.org/10.1080/15592294.2024.2375022). Epub 2024 Jul 5. PMID: 38967555.
