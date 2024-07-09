@@ -24,8 +24,11 @@ menu:
       url: http://ziemann-lab.net:80/public
       weight: 3
     - name: Rstudio
-      url: http://ziemann-lab.net:8787/
+      url: http://rstudio.ziemann-lab.net
       weight: 4
+    - name: Shiny Tools
+      url: http://ziemann-lab.net:80/shiny-tools
+      weight: 3
 params:
   MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
   MathJaxVersion: 2.7.5
