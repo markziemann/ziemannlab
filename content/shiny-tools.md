@@ -17,7 +17,7 @@ Ziemann M, Abeysooriya M, Bora A, Lamon S, Kasu MS, Norris MW, Wong YT, Craig JM
 
 **Under construction**
 
-* On the web: [Launch app](https://ora.ziemann-lab.net)
+* On the web: [Launch app](https://oratool.ziemann-lab.net)
 
 * Run it on your own hardware: [GitHub](https://github.com/markziemann/background?tab=readme-ov-file#shiny-app)
 
