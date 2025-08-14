@@ -1,0 +1,34 @@
+---
+title: "Plenery presentation - Deakin Graduate Research Conference"
+author: "Mark Ziemann"
+date: 2025-08-14
+categories: ["Reproducibility","Life Science","Bioinformatics"]
+tags: ["Deakin","Burnet"]
+---
+
+I'm very honoured to be a Plenary Speaker at today's Deakin Graduate Research
+conference for the School of Life and Environmental Science.
+Many thanks to the organisers for this privilege.
+
+The title of my presentation is *Computational reproducibility and the struggle for reliable science*.
+
+## Synopsis
+
+There is a battle going on in science. There are problems with research reliability, competition for high impact publications, sloppy practices and poor methodological reporting. Mark will discuss several ways in which researchers can improve the quality of their computational work, and how these will benefit science as a whole.
+
+## Take home message
+
+In this presentation I shed a light on the state of reproducibility in genomics
+and bioinformatics, and provide some practical steps that researchers can take
+to make their computational work more robust.
+
+Hopefully you can try to adopt one or more of these measures into your research
+workflows and discuss them with your teams.
+
+While we are all interested in coming up with the next big novel discovery,
+we should become aware of the research integrity issues in our fields and when
+necessary invest some of our time towards meta-research to raise awareness to
+those problems.
+
+<iframe src="Ziemann_ComputationalReproducibility_2025.pptx.pdf" width="100%" height="600px"></iframe>
+
