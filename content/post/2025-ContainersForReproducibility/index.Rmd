@@ -1,0 +1,38 @@
+---
+title: "AIMOS 2025 Workshop - Achieving complete computational research reproducibility using containers (and why we need it)"
+author: "Mark Ziemann"
+date: 2025-11-20
+categories: ["Reproducibility","Life Science","Bioinformatics"]
+tags: ["Deakin","Burnet"]
+---
+
+Today I presented a workshop on using containers for reproducible research at the AIMOS 2025 conference,
+hosted in Sydney by the Association for Interdisciplinary Meta-research & Open Science.
+
+## Synopsis
+
+Together with other best practices, containers enable us to make our work
+entirely reproducible.
+It requires some work to learn these tools, and research is difficult enough as it is,
+but if the research is mission critical and high stakes, then putting in this 
+effort will increase auditability and transparency greatly.
+Publishing containers is a service to others in the community, but it will also
+make long running projects with large stacks of software more robust.
+As projects can take a long time between initiation and final publication, containers
+enable us to control the computational environment of projects and allow us to 
+swap between projects relatively easily without the problem of changing software 
+on our "main machine".
+We also discussed that containers (or some snapshot of the software stack) could
+be something that should be included in data retention mandates.
+And if this is the case, then proprietary analytics platforms like Matlab and Stata
+would need to be modernised in order to be compatible with a new container-centric
+research ecosystem.
+
+<iframe src="AIMOS2025_Ziemann_Containers.pptx.pdf" width="100%" height="600px"></iframe>
+
+While writing this, I considered how this work isn't really new.
+I'm just reiterating ideas from others including [Professors Altuna Akalin](https://medium.com/data-science/scientific-data-analysis-pipelines-and-reproducibility-75ff9df5b4c5) and 
+[James Taylor](https://pmc.ncbi.nlm.nih.gov/articles/PMC6263957/) to
+whom we owe credit for leading the way towards computational reproducibility.
+While this isn't a new idea, the work needs to be done to advocate reproducible computing
+in new fields and educating the young researchers towards adopting best practices.
